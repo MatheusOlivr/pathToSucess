@@ -1,0 +1,44 @@
+body
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: gray;
+    background-position: center;
+    
+}
+table
+{
+    text-align:center;
+    font-size:2rem;
+    border-collapse:collapse;
+}
+tr td
+{
+    background-color:red;
+    
+}
+td
+{
+    width:14vw;
+    visibility:hidden;
+    height:15vh;
+}
+.tdContent
+{
+    border:solid black 0.5rem;
+    visibility:visible;
+    box-shadow: black 2vw 2vw 1vw;
+}
+.topBorder
+{
+    border-top:0.5rem black solid;
+}
+.rightBorder
+{
+    border-right:0.5rem black solid;
+}
+.leftBorder
+{
+    border-left:0.5rem black solid;
+}
